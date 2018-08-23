@@ -3,6 +3,9 @@ str = input('Enter the string to be checked :') # Inputs string from the user
 
 
 def palindrome(str):
+    '''
+    Returns the reverse of the string
+    '''
     return str[::-1]
 
 
