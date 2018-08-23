@@ -1,8 +1,10 @@
 
 str = input('Enter the string to be checked :') # Inputs string from the user
 
+
 def palindrome(str):
     return str[::-1]
+
 
 check = palindrome(str)
 print("Reversed string is :",check)
